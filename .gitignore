@@ -56,11 +56,6 @@ build/**
 *.swp
 .vscode/*
 
-# @test
-karma*
-test-*
-*.spec.ts
-
 typings
 .nvmrc
 TODO
