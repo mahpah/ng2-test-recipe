@@ -7,6 +7,8 @@ import { Component } from '@angular/core'
 	templateUrl: './app.component.jade',
 })
 export class AppComponent {
+	title
+
 	constructor() {
 
 	}
