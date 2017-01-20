@@ -1,0 +1,9 @@
+{
+	"extends": "airbnb",
+	"rules": {
+		"indent": ["error", "tab", { "SwitchCase": 1 }],
+		"prefer-template": "warn",
+		"global-require": "off",
+		"semi": ["error", "never"]
+	}
+}
