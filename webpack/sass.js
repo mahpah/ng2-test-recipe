@@ -1,16 +1,16 @@
 const ExtractTextPlugin = require('extract-text-webpack-plugin')
 
 module.exports = (externalStyle, env) => {
-	if (env.test) {
-		return {
-			module: {
-				rules: [{
-					test: /\.scss/,
-					loaders: 'null-loader',
-				}],
-			},
-		}
-	}
+	// if (env.test) {
+	// 	return {
+	// 		module: {
+	// 			rules: [{
+	// 				test: /\.scss/,
+	// 				loaders: 'null-loader',
+	// 			}],
+	// 		},
+	// 	}
+	// }
 
 	return {
 		module: {
